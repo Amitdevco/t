@@ -1,0 +1,89 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;justify-content: center;align-items: center;
+    background-color: purple;
+    flex-direction: column;
+    gap: 32px;
+}
+
+input{
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    border: 2px solid purple;
+    border-radius: 8px;
+}
+
+#btn{
+    padding: 8px 18px;
+    border: 2px solid purple;
+    border-radius: 16px;
+    color: purple;
+    background-color: transparent;
+}
+#log{
+    padding: 8px 18px;
+    border: 2px solid purple;
+    border-radius: 16px;
+    color: purple;
+    background-color: transparent;
+}
+#reg{
+    padding: 8px 28px;
+    border: 2px solid white;
+    border-radius: 16px;
+    color: white;
+    background-color: transparent;
+}
+
+button{
+    cursor: pointer;
+}
+
+.register{
+    display: none;justify-content: center;align-items: center;flex-direction: column;gap: 64px;
+    background-color: white;
+    height: 60%;
+    width: 80%;
+    border-radius: 16px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;align-items: center;flex-direction: column;gap: 32px;
+}
+
+.logg{
+    display: flex;justify-content: center;align-items: center;flex-direction: column;gap: 64px;
+    background-color: white;
+    height: 60%;
+    width: 80%;
+    border-radius: 16px;
+}
+.msgbox{
+    display: none;justify-content: center;align-items: center;flex-direction: column;gap: 64px;
+    background-color: white;
+    height: 30%;
+    width: 20%;
+    border-radius: 4px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#msg{
+    padding: 8px 18px;
+    border: 2px solid purple;
+    border-radius: 16px;
+    color: purple;
+    background-color: transparent;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+nav{
+    height: 100%;
+    background-color: rgb(0, 0, 32);
+    width:  40%;
+    display: flex;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    transform: translateX(-800px);
+    transition: all 0.5s;
+}
+
+#notice{
+    padding: 16px 3px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    width: 50%;
+}
+
+#notice:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#events{
+    padding: 16px 3px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: white;
+    width: 50%;
+}
+#events:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+#sidebar{
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid blue;
+    color: white;
+    width: 5%;   
+    position: absolute;
+    top: 90%;
+    left: 1%;
+}
+
+#sidebar:hover{
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#createEvents{
+    border-radius: 16px;
+    height: 80%;
+    width: 60%;
+    background-color: rgba(12, 101, 179, 0.541);
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50% , -50%);
+    display: none;
+    justify-content: center;align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#head{
+  padding: 4px 32px;
+  width: 40%;
+  height: 10%;
+  border-radius: 4px;
+  border: none;
+  font-size: 2vmax;
+}
+
+#body{
+    border: none;
+    padding: 8px 32px;
+    width: 40%;
+    height: 60%;  
+    font-size: 2vmax;
+}
+
+#submitEvent{
+    padding: 16px 3px;
+    border-radius: 4px;
+    background-color: rgba(57, 57, 197, 0.342);
+    color: white;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+#crossEvent{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    font-size: 3vmax;
+    cursor: pointer;
+    color: aliceblue;
+}
